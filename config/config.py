@@ -14,7 +14,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH", "")
-ALIVE_PIC = getenv("ALIVE_PIC", "")
+ALIVE_PIC = getenv("ALIVE_PIC", "https://te.legra.ph/file/8a35c510bf511986cb563.jpg")
 
 #CLIENT SESSION
 
@@ -28,8 +28,8 @@ STRING7 = getenv("STRING_SESSION7", None)
 STRING8 = getenv("STRING_SESSION8", None)
 STRING9 = getenv("STRING_SESSION9", None)
 STRING10 = getenv("STRING_SESSION10", None)
-OWNER_ID = int(getenv("OWNER_ID", "")) 
-SUDO_USERS = getenv("SUDO_USER", "") 
+OWNER_ID = int(getenv("OWNER_ID", "5656382791")) 
+SUDO_USERS = getenv("SUDO_USER", "5656382791") 
 
 
 """
