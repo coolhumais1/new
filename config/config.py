@@ -13,12 +13,12 @@ load_dotenv()
 
 
 API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
-ALIVE_PIC = getenv("ALIVE_PIC", None)
+API_HASH = getenv("API_HASH", "")
+ALIVE_PIC = getenv("ALIVE_PIC", "")
 
 #CLIENT SESSION
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -29,7 +29,7 @@ STRING8 = getenv("STRING_SESSION8", None)
 STRING9 = getenv("STRING_SESSION9", None)
 STRING10 = getenv("STRING_SESSION10", None)
 OWNER_ID = int(getenv("OWNER_ID", "")) 
-SUDO_USERS = getenv("SUDO_USER") 
+SUDO_USERS = getenv("SUDO_USER", "") 
 
 
 """
