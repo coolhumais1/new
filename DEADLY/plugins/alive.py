@@ -51,9 +51,9 @@ async def alive(client, m: Message):
     ALIVE_TXT += f"🔸**ʏᴏᴜʀ ᴅᴇᴀᴅʟʏsᴘᴀᴍ ɪs 𝟷𝟶𝟶% sᴀғᴇ ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ**\n\n"
     ALIVE_TXT += f"🔹 **ᴛʜɪs ᴜsᴇʀʙᴏᴛ ɪs 100% 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 𝙰𝙽𝙳 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙲𝙻𝙾𝙽𝙴𝙳 𝙱𝚈 𝙰𝙽𝚈𝙾𝙽𝙴**\n\n"
     ALIVE_TXT += f"════════════════════\n"
-    ALIVE_TXT += f"ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: {pversion}\n"
+    ALIVE_TXT += f"🔸 ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: {pversion}\n"
     ALIVE_TXT += f"🔹 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: {pthversion}\n"
-    ALIVE_TXT += f"🔸𝘂𝗽𝘁𝗶𝗺𝗲 {uptime} 𝗽𝗶𝗻𝗴 {delta_ping * 1000:.3f}ᴍs\n\n"
+    ALIVE_TXT += f"🔸 𝘂𝗽𝘁𝗶𝗺𝗲 {uptime} 𝗽𝗶𝗻𝗴 {delta_ping * 1000:.3f}ᴍs\n\n"
     ALIVE_TXT += f"════════════════════\n"
     ALIVE_TXT += f"🔸[sᴜᴘᴘᴏʀᴛ](https://t.me/noobcreator)🔹|🔸[ᴄʜᴀɴɴᴇʟ](https://t.me/noobxcreator)\n"
     await m.delete() 
