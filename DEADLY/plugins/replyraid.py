@@ -43,10 +43,10 @@ async def gban(app: Client, message):
             return
     get_user = await app.get_users(user)
     if int(message.chat.id) in PROGROUPS:
-        await elric.edit("`You Cannnot Spam In DeadlyChats`")
+        await elric.edit("`You Cannnot Spam In noobChats`")
         return
     if int(get_user.id) in DEV:
-        await elric.edit("You Cannot Spam On Developers")
+        await elric.edit("You Cannot Spam On BF")
         return
     elif int(get_user.id) in SUDOERS:
         await elric.edit("That Guy Is part of sudo user.")
