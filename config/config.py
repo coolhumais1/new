@@ -12,8 +12,8 @@ load_dotenv()
 
 
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "26318388"))
+API_HASH = getenv("API_HASH", "a5c549d2420fa6a7d7edbf08736f5a78")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://te.legra.ph/file/8a35c510bf511986cb563.jpg")
 
 #CLIENT SESSION
