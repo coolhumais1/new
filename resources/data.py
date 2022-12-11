@@ -1,8 +1,8 @@
 
 RAID = [                                  
-    "𝗔𝗕 𝗗𝗘𝗞𝗛 𝗗𝗘𝗔𝗗𝗟𝗬 𝗕𝗢𝗧 𝗧𝗘𝗥𝗜 𝗠𝗔 𝗖𝗛𝗢𝗗𝗘𝗚𝗔",
+    "ᴀʙ ᴅᴇᴋʜ ɴᴏᴏʙ sᴘᴀᴍ ᴛᴇʀɪ ᴍᴀ ᴄʜᴏᴅᴀɢᴀ",
     "TERE 𝗕EHEᑎ K 𝗖HUT ᴍE 𝗖H𝗔KU D𝗔𝗔L K𝗔R 𝗖HUT K𝗔 KHᴏᴏᑎ K𝗔R DUG𝗔",
-    "𝗗𝗘𝗔𝗗𝗟𝗬 𝗕𝗢𝗧 𝗧𝗘𝗥𝗔 𝗞𝗛𝗔𝗡𝗗𝗔𝗔𝗡 𝗖𝗛𝗢𝗗 𝗗",
+    "ᴠɪᴠᴇᴋ ɪs ʏᴏᴜʀ ғᴀᴛʜᴇʀ ᴅᴏɴᴛ ᴛᴀᴋᴇ ᴘᴀɴɢᴀ ᴡᴀʀɴᴀ ᴛᴜᴍʜᴀʀɪ ᴍᴀ ᴄʜᴏᴅᴀɴɢᴀ ᴋʀᴋᴀ ɴᴀɴɢᴀ",
     "TERI ᴍ𝗔𝗔 K 𝗕HᴏSDE ᴍE 𝗔ERᴏPL𝗔ᑎEP𝗔RK K𝗔RKE UD𝗔𝗔ᑎ 𝗕H𝗔R DUG𝗔 ✈️🛫",
     "TERI ᴍ𝗔𝗔 KI 𝗖HUT ᴍE SUTLI 𝗕ᴏᴍ𝗕 FᴏD DUᑎG𝗔 TERI ᴍ𝗔𝗔 KI JH𝗔𝗔TE J𝗔L KE KH𝗔𝗔K Hᴏ J𝗔YEGI💣",
     "TERI ᴍ𝗔𝗔KI 𝗖HUT ᴍE S𝗖ᴏᴏTER D𝗔𝗔L DUG𝗔👅",
