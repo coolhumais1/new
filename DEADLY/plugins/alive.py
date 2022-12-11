@@ -55,7 +55,7 @@ async def alive(client, m: Message):
     ALIVE_TXT += f"🔹 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: {pthversion}\n"
     ALIVE_TXT += f"🔸𝘂𝗽𝘁𝗶𝗺𝗲 {uptime} 𝗽𝗶𝗻𝗴 {delta_ping * 1000:.3f}ᴍs\n\n"
     ALIVE_TXT += f"════════════════════\n"
-    ALIVE_TXT += f"🔸[𝘀𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/noobcreator)🔹|🔸[𝗰𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/noobxcreator)\n"
+    ALIVE_TXT += f"🔸[sᴜᴘᴘᴏʀᴛ](https://t.me/noobcreator)🔹|🔸[ᴄʜᴀɴɴᴇʟ](https://t.me/noobxcreator)\n"
     await m.delete() 
     await m.reply_photo(photo=ALIVE_PIC, caption=ALIVE_TXT) 
 
