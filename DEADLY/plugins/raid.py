@@ -13,7 +13,7 @@ from resources.data import RAID, DEV, PROGROUPS
 
 @Client.on_message(filters.user(SUDOERS) & filters.command(["raid"], [",", ".", "!", "/", "+", "?"]))
 async def raid(app: Client, m: Message):  
-      usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid  [count] [Username of User]\n\n.raid [count] [reply to a User]\n\nCount must be a integer."
+      usage = "ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ = ʀᴀɪᴅ\n\nCommand:\n\n.raid  [count] [Username of User]\n\n.raid [count] [reply to a User]\n\nCount must be a integer."
       Deadly = "".join(m.text.split(maxsplit=1)[1:]).split(" ", 2)
       if len(Deadly) == 2:
         counts = int(Deadly[0])
@@ -57,7 +57,7 @@ async def raid(app: Client, m: Message):
 
 @Client.on_message(filters.user(SUDOERS) & filters.command(["draid"], [",", ".", "!", "/", "+", "?"]))
 async def daid(app: Client, m: Message):  
-      usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗠𝗥𝗮𝗶𝗱\n\nCommand:\n\n.draid  [count] [Username of User]\n\n.draid [count] [reply to a User]\n\nCount must be a integer."
+      usage = "ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ = ᴅᴍʀᴀɪᴅ\n\nCommand:\n\n.draid  [count] [Username of User]\n\n.draid [count] [reply to a User]\n\nCount must be a integer."
       Deadly = "".join(m.text.split(maxsplit=1)[1:]).split(" ", 2)
       if len(Deadly) == 2:
         counts = int(Deadly[0])
@@ -89,7 +89,7 @@ async def daid(app: Client, m: Message):
          await m.reply_text("This guy is a sudo users.")
          return
       mention = user.mention
-      await m.reply_text("⚜ 𝗗𝗺 𝗥𝗮𝗶𝗱 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 ⚜")
+      await m.reply_text("⚜ ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ ⚜")
       for _ in range(counts): 
          blaze = f"{choice(RAID)}"
          await app.send_message(user.id, blaze)
@@ -103,7 +103,7 @@ async def daid(app: Client, m: Message):
 # SPAM
 @Client.on_message(filters.user(SUDOERS) & filters.command(["spam", "spamming"], [".", "!", "/"]))
 async def sspam(client: Client, message: Message):
-    sex  = await message.reply_text("𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommands!\n\n.spam [count] [message to spam]\n.spam [count] [reply to a message]\n\nCount must be a integer.")
+    sex  = await message.reply_text("ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ = sᴘᴀᴍ\n\nCommands!\n\n.spam [count] [message to spam]\n.spam [count] [reply to a message]\n\nCount must be a integer.")
     quantity = message.command[1]
     spam_text = ' '.join(message.command[2:])
     quantity = int(quantity)
