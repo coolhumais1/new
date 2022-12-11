@@ -16,7 +16,7 @@ async def prd(client: Client, message: Message):
     quantity = int(quantity)
     await sex.delete() 
     if int(message.chat.id) in PROGROUPS:
-        await message.reply_text("`You Cannot Pornspam In Deadly Chats!`")
+        await message.reply_text("`You Cannot Pornspam In noob Chats!`")
         return    
 
     for _ in range(quantity):
