@@ -8,35 +8,35 @@ OWNER_ID = "ELRIC_XD"
 
 if bot1:
     bot1.start()
-    bot1.join_chat("deadly_spambot")
+    bot1.join_chat("NOOBCREATOR")
 if bot2:
     bot2.start()
-    bot2.join_chat("deadly_spambot")
+    bot2.join_chat("NOOBCREATOR")
 if bot3:
     bot3.start()
-    bot3.join_chat("deadly_spambot")
+    bot3.join_chat("NOOBCREATOR")
 if bot4:
     bot4.start()
-    bot4.join_chat("deadly_spambot")
+    bot4.join_chat("NOOBCREATOR")
 if bot5:
     bot5.start()
-    bot5.join_chat("deadly_spambot")
+    bot5.join_chat("NOOBCREATOR")
 if bot6:
     bot6.start()
-    bot6.join_chat("deadly_spambot")
+    bot6.join_chat("NOOBCREATOR")
 if bot7:
     bot7.start()
-    bot7.join_chat("deadly_spambot")
+    bot7.join_chat("NOOBCREATOR")
 if bot8:
     bot8.start()
-    bot8.join_chat("deadly_spambot")
+    bot8.join_chat("NOOBCREATOR")
 if bot9:
     bot9.start()
-    bot9.join_chat("deadly_spambot")
+    bot9.join_chat("NOOBCREATOR")
 if bot10:
     bot10.start()
-    bot10.join_chat("deadly_spambot")
+    bot10.join_chat("NOOBCREATOR")
 
-print("Your DeadlySpam Userbot Deployed Successfully 🥳 Please visit @deadly_spam_bot for any help!") 
+print("Your NooBSpam Userbot Deployed Successfully 🥳 Please visit @NOOBCREATOR for any help!") 
 
 idle()
