@@ -66,7 +66,7 @@ async def ping(client, m: Message):
     current_time = datetime.utcnow()
     delta_ping = time() - start
     ping_a = "▒█▀▀█ ▀█▀ ▒█▄░▒█ ▒█▀▀█\n▒█▄▄█ ▒█░ ▒█▒█▒█ ▒█░▄▄\n▒█░░░ ▄█▄ ▒█░░▀█ ▒█▄▄█\n\n"  
-    ping_b = f"𝙋𝙊𝙉𝙂:🏓 {delta_ping * 1000:.3f}ᴍs\n"
+    ping_b = f"ᴘᴏɴɢ ᴍᴀᴅᴇ ʙʏ @PiRoKiD:🏓 {delta_ping * 1000:.3f}ᴍs\n"
     text = f"{ping_a} {ping_b}"
     await m.delete() 
     await m.reply_text(text) 
